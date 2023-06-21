@@ -1,0 +1,42 @@
+  
+  <div class="header"><h1>Sales Commission Table</h1></div>
+
+  <div class="datePicker">
+  <label class="dateStyle">Search Sales Commission by Date 
+    <input type="date" value='Date' (change)="HandleDateChange($event)" required #input>
+  
+  <button type="submit" color="primary" (click)="getCommissionData(input)">Get</button>
+</label>
+</div>
+  
+  <div class="table-container">
+    
+  <table *ngIf="commissionData" class="table" id="customers">
+    <thead>
+      <tr>
+  
+        <th>Created Date</th>
+        <th (click)="sort('salesman_name')" class="clickable">Salesman</th>
+        <th (click)="sort('product')" class="clickable">Product</th>
+        <th (click)="sort('product_quantity')" class="clickable">Quantity</th>
+        <th (click)="sort('sale_amount')" class="clickable">Value</th>
+        <th (click)="sort('salesman_commission')" class="clickable">Commission</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of commissionData | orderBy:sortColumn:reverseSort | paginate:{
+        id :'listning_pagination', itemsPerPage : 20, currentPage : page , totalItems : totalRecords
+      }">
+        <td>{{row.createdDate}}</td>
+        <td (click)="showSalesmanInfo(row.salesman_name)" class="clickable">{{row.salesman_name}}</td>
+        <td (click)="showProductInfo(row.product)" class="clickable">{{row.product}}</td>
+        <td>{{row.product_quantity}}</td>
+        <td>{{row.sale_amount}}</td>
+        <td>{{row.salesman_commission}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <div>
+    <pagination-controls id="listning_pagination" (pageChange)="page = $event" ></pagination-controls>
+  </div>
+  </div>

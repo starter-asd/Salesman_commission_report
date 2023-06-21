@@ -1,0 +1,123 @@
+[
+  {
+    "salesman_id": 1,
+    "salesman_name": "Benita",
+    "salesman_area": "Koramangala",
+    "commission_rate": 4
+  },
+  {
+    "salesman_id": 2,
+    "salesman_name": "Brietta",
+    "salesman_area": "Mysore Road",
+    "commission_rate": 5
+  },
+  {
+    "salesman_id": 3,
+    "salesman_name": "Ninnetta",
+    "salesman_area": "Pattanagere",
+    "commission_rate": 2
+  },
+  {
+    "salesman_id": 4,
+    "salesman_name": "Vevay",
+    "salesman_area": "Marathahalli",
+    "commission_rate": 5
+  },
+  {
+    "salesman_id": 5,
+    "salesman_name": "Dorene",
+    "salesman_area": "Mysore Road",
+    "commission_rate": 2
+  },
+  {
+    "salesman_id": 6,
+    "salesman_name": "Lily",
+    "salesman_area": "Kengeri",
+    "commission_rate": 5
+  },
+  {
+    "salesman_id": 7,
+    "salesman_name": "Genovera",
+    "salesman_area": "Deepanjali Nagar",
+    "commission_rate": 3
+  },
+  {
+    "salesman_id": 8,
+    "salesman_name": "Jerry",
+    "salesman_area": "Deepanjali Nagar",
+    "commission_rate": 2
+  },
+  {
+    "salesman_id": 9,
+    "salesman_name": "Edith",
+    "salesman_area": "Pattanagere",
+    "commission_rate": 2
+  },
+  {
+    "salesman_id": 10,
+    "salesman_name": "Margarette",
+    "salesman_area": "Deepanjali Nagar",
+    "commission_rate": 3
+  },
+  {
+    "salesman_id": 11,
+    "salesman_name": "Ronna",
+    "salesman_area": "Kengeri",
+    "commission_rate": 3
+  },
+  {
+    "salesman_id": 12,
+    "salesman_name": "Althea",
+    "salesman_area": "Indiranagar",
+    "commission_rate": 3
+  },
+  {
+    "salesman_id": 13,
+    "salesman_name": "Shirlee",
+    "salesman_area": "Deepanjali Nagar",
+    "commission_rate": 2
+  },
+  {
+    "salesman_id": 14,
+    "salesman_name": "Modestia",
+    "salesman_area": "Marathahalli",
+    "commission_rate": 1
+  },
+  {
+    "salesman_id": 15,
+    "salesman_name": "Sabina",
+    "salesman_area": "Deepanjali Nagar",
+    "commission_rate": 5
+  },
+  {
+    "salesman_id": 16,
+    "salesman_name": "Tiffie",
+    "salesman_area": "MG Road",
+    "commission_rate": 3
+  },
+  {
+    "salesman_id": 17,
+    "salesman_name": "Flory",
+    "salesman_area": "Marathahalli",
+    "commission_rate": 3
+  },
+  {
+    "salesman_id": 18,
+    "salesman_name": "Annecorinne",
+    "salesman_area": "Trinity",
+    "commission_rate": 2
+  },
+  {
+    "salesman_id": 19,
+    "salesman_name": "Dianemarie",
+    "salesman_area": "Mysore Road",
+    "commission_rate": 2
+  },
+  {
+    "salesman_id": 20,
+    "salesman_name": "Ketti",
+    "salesman_area": "Pattanagere",
+    "commission_rate": 3
+  }
+]
+

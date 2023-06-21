@@ -1,0 +1,107 @@
+
+[type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+  
+  
+.dateStyle{
+  font-family: Verdana;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  padding-bottom: 3px;
+  padding-right: 5px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+  h1 {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-weight: bolder;
+    text-decoration-color: #84d2a5a5;
+    font-size: xx-large;
+    
+  }
+
+  .header{
+    background-color: #488863a5;
+    margin-top: auto;
+  }
+  .table-container{
+    position:-webkit-sticky
+  }
+  .table-container table tr:nth-child(n+101){
+    display: none;
+  }
+table {
+    width:fit-content;
+    height: auto;
+    border-spacing: 10px;
+  }
+
+  body {margin:2em;}
+  
+  .table th,
+  .table td {
+    border: 1px solid #1d4e8d;
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+  }
+  .p {
+    text-align: center;
+    padding-top: 140px;
+    font-size: 14px;
+  }
+  .table th {
+    font-weight:bolder;
+    font-size: larger;
+    background-color: #488863a5;
+    text-align: center;
+  }
+  
+  .table th.clickable:hover,
+  .table td.clickable:hover {
+    cursor: pointer;
+    background-color: #488863a5;
+  }
+
+  .pagination{
+    position: bottom;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+  }
+  .pagination a{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #6f5858;
+    background-color: #fff;
+    color: #000;
+  }
+  .pagination a:hover{
+    background-color: #ccc;
+    color:#fff
+  }
+
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #dee0e3;}
+  
+  #customers tr:hover {background-color: #5d966b;}

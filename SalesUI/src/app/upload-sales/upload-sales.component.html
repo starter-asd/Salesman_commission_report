@@ -1,0 +1,17 @@
+<div class="header"><h1>Upload Product Sales Data</h1></div>
+
+<div class="container">
+    <div>
+      <label for="salesmanFile">Salesman File:</label>
+      <input class="main" type="file" id="salesmanFile" name="salesmanFile" accept=".json" (change)="onSalesmanFileSelected($event)" required #fileInput1>
+      
+    </div>
+
+    <div>
+      <label for="productFile">Product File:</label>
+      <input type="file" id="productFile" name="productFile" accept=".json" (change)="onProductFileSelected($event)" required #fileInput2>
+    </div>
+    <div class="button_c">
+    <button type="submit" [disabled]="!salesmanFile || !productFile"  (click)="uploadFile(fileInput1,fileInput2)">Upload Data</button>
+  </div>
+</div>

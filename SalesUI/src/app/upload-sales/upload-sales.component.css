@@ -1,0 +1,64 @@
+.main{
+  align-content: center;
+}
+h1{
+text-align: center;
+    padding: 20px 0 20px 0;
+    font-weight: bolder;
+    text-decoration-color: #84d2a5a5;
+    font-size: xx-large;
+}
+.header{
+ 
+    background-color: #488863a5;
+  }
+.button_c{
+  text-align: center;
+}
+.container{
+  height:auto;
+  width: auto;
+  padding: 20px 500px;
+  border: 1px solid #1c1818;
+  border-radius: 10px;
+  background-color: #dee0e3;
+  margin-bottom: 20px;
+}
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="file"] {
+    background-color: #669f68;
+    align-items: center;
+    text-align: center;
+    display: block;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    align-content: center;
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #619862;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #878fac;
+  }
